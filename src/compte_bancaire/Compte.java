@@ -19,8 +19,6 @@ public class Compte {
     }
     public void virerVers(int montant,Compte destinataire){
         this.retirer(montant);
-        //why this::compte courant;objet li
-        //tb9t 3lih had l method virerVers
         destinataire.deposer(montant);
     }
 
