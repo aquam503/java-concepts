@@ -18,14 +18,10 @@ public class Main {
         animaux.add(new Animal());
 
         for(Animal animal:animaux){
-            //3yt 3la méthode d marcher
-            //dyal kol type
             animal.marcher();
         }
 
-        //polymorhisme c'est
-        //un objet peut prendre plus d'une forme
-        //cad plus d'un type.
+        //polymorphism means that an object can take more than one form.
 
     }
 }
