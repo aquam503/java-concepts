@@ -3,9 +3,8 @@ package Thread_creation2;
 class Counter
 {
     int c;
-    //we want one thread to work with this : Sémaphore
+    //we want one thread to work with this : Semaphore
     //we add synchronized keywords
-    //daba ratl9a result 2001
     public synchronized void increment()
     {
         c++;
