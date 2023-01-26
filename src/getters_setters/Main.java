@@ -5,8 +5,7 @@ public class Main {
     public static void main(String[] args){
         Personne p1=new Personne();
 
-        /*p1.nom="mahfoud"; ca va donner erreur
-        car nom is private ; hna vient le role de
+        /*p1.nom="redouane"; ca va donner erreur because 'nom' is private ; 
         >setters(pour modifier value of attributes)
         >getters(obtenir acces pour voir its value)
          */
@@ -19,15 +18,11 @@ public class Main {
         System.out.println(p1.getPrenom());
         System.out.println(p1.getAge());
 
-        /*ila knti 3atih age pub/default y9d ydir
-        p1.age=3000 for example li machi logique en utilsant
-        l méthode setter n9d nzid cdt bach nmn3o ydir telles
-        actions.
-         */
+        
 
         Personne p2=new Personne();
         p2.setAge(300);
-        //marayafectihach raykhli default ici=0
+        
         System.out.println(p2.getAge());
     }
 }
