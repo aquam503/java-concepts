@@ -1,9 +1,7 @@
 package Heritage3;
 
 
-//public class Perrouquet extends Oiseau,Animal pas
-//acceptable f java ; java mafihch HERITAGE MULTIPLE
-//java mafihch HERITAGE MULTIPLE pour les classes.
+//java does not support multiple inheritance.
 public class Perrouquet extends Oiseau{
 
     public Perrouquet(String nom) {
