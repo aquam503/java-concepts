@@ -4,16 +4,13 @@ public class Main {
     public static void main(String[] args) {
 
         String s="redouane";
-        int n=0;    // n pas un objet
-        //String classe f java ;s raha objet
-        //pas de type primitif
-        //n est un variable de type primitif int pas un objet
-        // String s="redouane"; had tari9a daroha pour faciliter 3l les
-        //programmeur puisque String est beaucoup utilisé
-        //normalement le syntax est ://
-
+        int n=0;    // n not an object //n is a variable of primitive type int not an object.
+        //String is a java class ;s1=object
+        // String s="redouane" = this way is made to make it easier for programmers because String is used a lot.
+        
+        // normally the syntax is :
         String s1=new String("red");
-        System.out.println(s.charAt(n)); //char d'indice n
+        System.out.println(s.charAt(n));
         System.out.println(s1.length());
 
         if (s1.startsWith("r")){
