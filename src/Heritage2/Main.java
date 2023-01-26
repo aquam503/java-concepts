@@ -7,15 +7,9 @@ public class Main {
         System.out.println(chef1);
         System.out.println(emp1);
         System.out.println(emp1.getSalaire());
-        //Affiche 10200 c'est bon
+        
         System.out.println(chef1.getSalaire());
-        //Affiche 20000 c'est pas bon il faut ajouter prime
-        //Min kadir chef1.getSalaire() kaymchi l classe chef
-        //Makayl9acha donc kaymchi ychouf heritage
-        //Daba ana meme méthode bghit ndirlha : Redéfinition.
-        //voir classe Chef
-        //Redéfinition =khss yb9a signature dyal methode elle
-        //meme cad public double getSalaire() hada matbdel fih walou
+    
         System.out.println(chef1.getNom());
 
     }
