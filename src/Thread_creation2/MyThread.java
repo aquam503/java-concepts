@@ -1,10 +1,5 @@
 package Thread_creation2;
 //M1
-//fach kanbghiw n creer un Thread
-//li ran3tiwh a specific task we have to create a class
-//fille de Thread class
-//to define that
-//where we create
 public class MyThread extends Thread{
     int[] values={6,5,1,7,8};
     @Override
@@ -22,9 +17,6 @@ public class MyThread extends Thread{
    run will be called automatically when u call start.
  */
 
-/* if u have wahd class MyThread extends deja
-mn wahd l class A;so now we can't extend from thread
-in this case we use implements Runnable
-
+/* 
 class MyThread extends A implements Runnable
  */
