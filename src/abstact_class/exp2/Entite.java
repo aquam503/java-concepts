@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public abstract class Entite {
     public abstract void dessiner();
-    /*if il existe au moins méthode abstract dans la classe
+    /*si il existe au moins une méthode abstract dans la classe
     donc la classe doit etre aussi abstract*/
     //une classe abstract contient au moins une méthode abstract
     public static void main(String[] args) {
