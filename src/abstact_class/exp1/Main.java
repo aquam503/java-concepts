@@ -5,10 +5,9 @@ import abstact_class.exp1.Cercle;
 
 public class Main {
     public static void main(String[] args){
-        // erreur Forme forme1=new Forme();
-        //on peut pas creer un objet from an abstract class.
-        //abstract class is cretaed pour etre héritée
-
+        // error Forme forme1=new Forme();
+        //on peut pas creer un objet a partir de : an abstract class.
+        //abstract class est crée pour héritage.
         //abstract is used in games too://classe entité
         //car Forme ca reste abstract
 
