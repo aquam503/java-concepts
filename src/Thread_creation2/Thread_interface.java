@@ -35,7 +35,7 @@ public class Thread_interface {
          */
         Thread t1=new Thread(hi);
         Thread t2=new Thread(he);
-        //min kaytcriyaw threads by default kayakhdo wahd Priority
+
         System.out.println("hadi 9blel start of threads donc dima lewla");
 
         System.out.println(t1.getPriority());//5
@@ -54,19 +54,18 @@ public class Thread_interface {
         t1.start();
         try {Thread.sleep(50);}//50 miliseconde
         catch(Exception e){}
-        //zdtha bach ndmn que j'aurai dima Hi Hello;Hi Hello.....
+       
         t2.start();
 
-        //join method kat adressa l
-        //main thread bach tsna hta y texecuta thread kaml
+      
 
 
         System.out.println("55*****");
-        t1.join();//hadi dakhla fl main thread
-        t2.join();//howa li kayexécutiha
+        t1.join();//exectued by main thread
+        t2.join();//exectued by main thread
 
         System.out.println(t1.isAlive());
-        //now ******** dima ratkon flekher
+  
         System.out.println("*******");
     }
 }
