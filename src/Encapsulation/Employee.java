@@ -1,9 +1,7 @@
 package Encapsulation;
 
 public class Employee {
-    //Encapsulation hiya maykon 3ndk lhe9 t accéder l
-    //chi variable soit t9raha ou t modifier
-    //ila 3an tari9 les méthodes;(getters & setters)
+    //Encapsulation = access via methods ;(getters & setters)
     private String nom;
     private double salaire;
 
