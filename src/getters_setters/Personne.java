@@ -5,8 +5,7 @@ public class Personne {
     private String nom,prenom;
     private int age;
 
-    //getters&setters name kaykon get concaténé m3a its name
-    // fais ctrl+espace et ktb get/set et raytl3olk
+
 
     public int getAge() {
         return age;
