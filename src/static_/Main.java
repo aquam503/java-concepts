@@ -1,11 +1,9 @@
 package static_;
 
 public class Main {
-    //main method drnaha static bach bla manhtajou
-    //n creyiw des objets
+    //main method = static so we don't need to create objects.
+    //so we can call it without object creation.
     public static void main(String[] args){
-        //chi haja static n9do n3ytolha ra
-        //bl classe sans création d'objet
         System.out.println(Eleve.code);
         Eleve elv1=new Eleve();
         System.out.println(elv1.code);
@@ -18,11 +16,6 @@ public class Main {
         System.out.println(elv2.code);
         System.out.println(elv3.code);
         System.out.println(elv4.code);
-        //min ratprinti ratl9ahom b 4
-        // 3ndhom meme valeur 4
-        //car code fih copie whda
-        //kayna wehda ; static attributes are called
-        //class attributes.
         elv4.code=6;
         System.out.println(elv4.code);
         Eleve elv5 = new Eleve();
