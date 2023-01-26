@@ -29,7 +29,6 @@ public class MyThread2 {
     hi.start();
     try {Thread.sleep(50);}//50 miliseconde
     catch(Exception e){}
-    //zdtha bach ndmn que j'aurai dima Hi Hello;Hi Hello.....
     he.start();
     System.out.println("*******");
     }
