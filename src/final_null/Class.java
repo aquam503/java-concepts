@@ -2,10 +2,9 @@ package final_null;
 
 public class Class {
 
-    //hnaya on a nbrJ constante so we add key word : final
-    //ila zdti final darori khsk t initialisi cette variable
-    //9bel;t9d t initialisiha f constructeur ou nit f str dyalha nit
-    //like final int nbrJ=7;
+    //nbrJ is a constant so we add key word : final
+    //if you use final then you have to initialize it
+    
     final int nbrJ;
     String mot;
     public Class(){
