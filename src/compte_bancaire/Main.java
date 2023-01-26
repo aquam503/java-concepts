@@ -4,7 +4,7 @@ package compte_bancaire;
 //déposer 500$ au compte2
 //retirer 50$ au compte1
 //virer 100$ du compte2 au compte1
-//afficher solde de chaq compte
+//afficher solde de chaque compte
 public class Main {
     public static void main(String[] args){
         Compte cpt1=new Compte("red");
