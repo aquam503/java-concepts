@@ -3,8 +3,7 @@ package Heritage;
 public class Chauffeur {
     public static void main(String[] args){
         Voiture v1=new Voiture("BMW","hangi","2007");
-        //min ratbghi t afficher l'objet kaymchi ychof wach 3ndk
-        //method toString() to run it hiya li mkelfa bl affichage.
+        //when you want to display an object => search for toString() method.
         System.out.println(v1);
         /**/
         System.out.println(v1.getVitesse());
